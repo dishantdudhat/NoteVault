@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #212121;
+}
+
+.Navigation {
+  display: flex;
+  color: #FFFFFFDE;
+  background-color: #212121;
+  height: 12vh;
+  padding-left: 5%;
+  align-items: center;
+  border-bottom: 0.5px solid #F1F3F43D;
+}
+
+.Titlename {
+  display: block;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.mainlogin {
+  display: flex;
+  font-size: 15px;
+  font-style: normal;
+  width: 30%;
+  margin-left: auto;
+  margin-right: 1%;
+  align-items: center;
+  gap: 10%;
+}
+
+.login {
+  text-decoration: none;
+  color: #FFFFFFDE;
+  font-size: 15px;
+}
+
+.ragi_button {
+  border-radius: 34px;
+  cursor: pointer;
+  padding: 10px 24px;
+  font-size: 15px;
+  border: 1.5px solid #FFFFFFDE;
+  color: #FFFFFFDE;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  background-color: transparent;
+  font-weight: 600;
+}
